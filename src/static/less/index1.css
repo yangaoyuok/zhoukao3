@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+}
+.wrap .header {
+  height: 1.12rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap .header a {
+  padding-left: 0.13333333rem;
+  padding-bottom: 0.33333333rem;
+}
+.wrap .header a input {
+  width: 8.26666667rem;
+  height: 0.8rem;
+  border-radius: 0.06666667rem;
+  border: 0;
+  border: 1px solid #ccc;
+}
+.wrap .header a {
+  padding-top: 0.13333333rem;
+}
+.wrap .header a p {
+  font-size: 0.41333333rem;
+  color: #ccc;
+}
